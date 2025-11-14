@@ -8,7 +8,7 @@
 1. 下载 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 并安装好
 2. 在默认浏览中输入下面网址，并回车
     ```shell
-    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/yqchilde/capslox-karabiner/main/capslox-karabiner.json
+    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Alkacid/capslox-karabiner/main/capslox-karabiner-modified.json
     ```
 3. 跳转至Karabiner-Elements并导入
 4. 在软件菜单项 `Complex modifications` 中点击左下角 `Add rule` 启用该项目全部功能
@@ -44,9 +44,8 @@ README下文将用以下符号来表示按键位及映射键位，其代表释�
 
 | 按键             | 映射为         | 说明                  |
 |----------------|-------------| --------------------- |
-| `⇪` 单击         | `escape`    | 单击Capslock发送ESC   |
+| `⇪` 单击         | `caps_lock`    | 单击切换大写锁定   |
 | `⇪` 长按         | `hyper`     | 按住Capslock启用Hyper |
-| `⇪` + `escape` | `caps_lock` | 单击ESC切换大写锁定   |
 | `⇪` `spacebar` | `ctrl` + `spacebar` | 单击空格切换输入法    |
 
 ### Hyper => 光标移动
@@ -99,6 +98,14 @@ README下文将用以下符号来表示按键位及映射键位，其代表释�
 | `⇪` `/`     | `shift` + `end` && `delete_or_backspace` | 删除至行尾 |
 | `⇪` `⌫`     | `command` + `delete_or_backspace`       | 删除当前行 |
 | `⇪` `⌘` `⌫` | `command` + `A` && `delete_or_backspace` | 删除全部内容 |
+
+### Hyper => 复制粘贴
+
+| 按键          | 映射为                                     | 说明     |
+|-------------|-----------------------------------------| -------- |
+| `⇪` `C`     | `command` + `c`                        | 复制     |
+| `⇪` `V`     | `command` + `v`                          | 粘贴     |
+| `⇪` `X`     |  `command` + `x`                          | 剪切     |
 
 ### Hyper => F1~F12
 
