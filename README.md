@@ -3,6 +3,21 @@
 本项目是基于karabiner实现替代[capslox软件](https://capslox.com)
 部分功能的配置，由于在内测阶段一直使用capslox，且仅使用了基础热键，故没有参与付费购买，当然capslox不得不说是一款在Mac上非常好用的软件。
 
+## ⚠️ F19/F20 版本说明
+
+如果你在使用原版配置时遇到与其他应用快捷键冲突的问题，可以使用 **F19/F20 版本**。该版本将 Hyper 键从同时按下多个修饰键改为使用 F19 或 F20 键，大大降低冲突的可能性。
+
+详细说明请参考 [README_F19.md](README_F19.md)
+
+快速生成 F19/F20 配置：
+```bash
+# 生成 F19 版本
+python3 generate_f19_config.py
+
+# 生成 F20 版本  
+python3 generate_f19_config.py --key f20
+```
+
 ## 安装
 
 1. 下载 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 并安装好
